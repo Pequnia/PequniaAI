@@ -1,0 +1,25 @@
+# Define your environment and default settings
+
+.PHONY: install run_train run_predict clean
+
+# Installation of necessary Python packages
+install:
+	@echo "Installing dependencies..."
+	pip install -r requirements.txt
+
+# Run the Jupyter notebook for training the model
+run_train:
+	@echo "Running training process..."
+	jupyter nbconvert --to notebook --execute PequniaAI.ipynb --output run_training_output.ipynb
+
+# Run the prediction for a new input
+run_predict:
+	@echo "Running prediction..."
+	python predict_behavior.py "I like to tell jokes but always keep it professional."
+
+# Clean any temporary files or outputs
+clean:
+	@echo "Cleaning up..."
+	rm -rf __pycache__
+	rm -f run_training_output.ipynb
+	rm -f pequniaAI_model.pth

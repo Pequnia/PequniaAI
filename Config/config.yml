@@ -1,0 +1,15 @@
+jupyter:
+  pip:
+    - pandas
+    - scikit-learn
+    - transformers
+    - torch
+    - joblib
+    - numpy
+    - flask
+    - streamlit
+    - matplotlib
+    - seaborn
+
+python:
+  version: 3.8  # Specify desired Python version
