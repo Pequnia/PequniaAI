@@ -1,0 +1,10 @@
+{
+  "Name": "Bob",
+  "Age": 30,
+  "Gender": "Male",
+  "Behavior": "professional",
+  "Specific Traits": "prefers concise, to-the-point, and formal communication",
+    "assets": {
+    "profile_picture": "assets/bob.jpg"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alice",
+  "age": 25,
+  "gender": "Female",
+  "behavior": "friendly",
+  "traits": {
+    "empathy": 0.9,
+    "thoughtfulness": 0.8
+  },
+  "assets": {
+    "profile_picture": "assets/alice.jpg"
+  }
+}
