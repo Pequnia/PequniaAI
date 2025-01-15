@@ -1,3 +1,4 @@
+
 ---
 
 # **PequniaAI**
@@ -35,19 +36,19 @@ This project leverages modern machine learning libraries like PyTorch and Huggin
 ## **Features**
 
 - **Personalized AI Agents**: Define behaviors, personalities, and specific traits for each agent.
-- **Neural Network Training**: Train agents using LSTM-based models and pre-trained BERT embeddings.
+- **Neural Network Training**: Train agents using machine learning models.
 - **Command-line Integration**: Run key operations (training, prediction, etc.) with simple terminal commands.
 - **Scalable and Extendable**: Add new plugins, traits, or behaviors with ease.
-- **Predefined Commands**: Automate tasks like training, predicting, and cleaning up with a `Makefile`.
+- **Predefined Commands**: Automate tasks like training, predicting, and cleaning up with `Makefile`.
 
 ---
 
 ## **Installation**
 
 ### **Prerequisites**
-1. **Python**: Version 3.8 or higher.
-2. **Pip**: Ensure you have the latest version of `pip` installed.
-3. **Git**: Optional but recommended for managing project versions.
+- **Python**: Version 3.8 or higher.
+- **Pip**: Ensure you have the latest version of `pip` installed.
+- **Git**: Optional but recommended for managing project versions.
 
 ### **Step-by-step Installation**
 1. Clone the PequniaAI repository:
@@ -101,7 +102,7 @@ make clean
 | Command               | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
 | `make install`        | Installs required dependencies listed in `requirements.txt`.               |
-| `make run_train`      | Runs the training notebook and executes the training pipeline.             |
+| `make run_train`      | Runs the training pipeline.                                                 |
 | `make run_predict`    | Predicts the behavior of a given input text using the trained model.       |
 | `make clean`          | Removes temporary files and cached data.                                   |
 
@@ -129,12 +130,12 @@ PequniaAI/
 Plugins allow you to extend PequniaAI’s capabilities, such as adding custom traits, integrating new machine learning models, or modifying agent behaviors.
 
 ### **Adding a New Trait**
-1. Add a new entry in `data.csv` under the `Specific Traits` column.
+1. Add a new entry in `data.csv` under the `Specific Traits` column:
    ```csv
    Name,Age,Gender,Behavior,Specific Traits
    Alex,27,Non-binary,humorous,"likes to incorporate sci-fi references in jokes"
    ```
-2. Re-run the training notebook to update the model.
+2. Re-run the training pipeline to update the model.
 
 ### **Custom Neural Networks**
 1. Create a new Python file (e.g., `custom_model.py`) and define your architecture:
@@ -149,7 +150,7 @@ Plugins allow you to extend PequniaAI’s capabilities, such as adding custom tr
        def forward(self, x):
            return self.fc(x)
    ```
-2. Update the main notebook or script to use your custom model.
+2. Update the main training script to use your custom model.
 
 ---
 
@@ -161,9 +162,9 @@ Plugins allow you to extend PequniaAI’s capabilities, such as adding custom tr
 - **Entertainment**: Develop interactive AI characters for games or storytelling.
 
 ### **Integrating with Web Platforms**
-PequniaAI can be integrated with web applications using Flask or FastAPI. For example:
-1. Create a Flask API to handle requests.
-2. Use the trained model to generate responses.
+PequniaAI can be integrated with web applications using frameworks like Flask or FastAPI. Here’s how to get started:
+1. Create a Flask or FastAPI API to handle requests.
+2. Use the trained model to generate responses in real-time.
 
 ---
 
@@ -188,3 +189,6 @@ PequniaAI is provided "as is" without any warranties, express or implied. The cr
 For inquiries or support, please contact:
 - **Email**: support@pequniaAI.com
 - **GitHub**: [https://github.com/Pequnia/PequniaAI](https://github.com/Pequnia/PequniaAI)
+
+---
+
