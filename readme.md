@@ -177,7 +177,7 @@ PequniaAI is licensed under the MIT License. You are free to use, modify, and di
 ## **Trademark and Disclaimer**
 
 ### **Trademark**
-PequniaAI™ is a trademark of [Your Organization]. Unauthorized use of the trademark is strictly prohibited.
+PequniaAI™ is a trademark of Pequnia. Unauthorized use of the trademark is strictly prohibited.
 
 ### **Disclaimer**
 PequniaAI is provided "as is" without any warranties, express or implied. The creators are not liable for any damages arising from the use of this software.
